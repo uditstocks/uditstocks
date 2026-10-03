@@ -30,7 +30,10 @@ jobs:
       # Swap the snake for a pixel-art Michael Scott: slower, and he stops for
       # two seconds whenever a speech bubble shows.
       - name: Michael-ify the snake
-        run: python3 .github/scripts/snakeify.py dist/github-snake.svg dist/github-snake-dark.svg --slow 1.5 --pause 2000
+        run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
+          ls -la dist
+          python3 .github/scripts/snakeify.py dist/github-snake.svg dist/github-snake-dark.svg --slow 1.5 --pause 2000
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
