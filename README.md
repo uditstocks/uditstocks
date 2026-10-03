@@ -76,7 +76,7 @@
     <td width="50%" align="center" valign="top">
       <img src="https://media1.tenor.com/m/xS9rmU-bfIUAAAAC/thats-what-she-said-what-she-said.gif" width="260" alt="Michael Scott at the plaque wall: THAT'S WHAT SHE SAID">
       <br><br>
-      <b>"12 merged PRs is a pretty big number."</b><br>- that's what she said.
+      <b>"12 merged OSS PRs is a pretty big number."</b><br>- that's what she said.
     </td>
   </tr>
 </table>
